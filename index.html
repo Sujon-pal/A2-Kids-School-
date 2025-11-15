@@ -1,12 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kids School</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <!-- LOGO -->
+        <div class="logo">
+          <img src="assets/logo.png" alt="" />
+          <h2 class="font">SCHOOL</h2>
+        </div>
+
+        <!--  -->
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+        <!-- NAV ITEMS -->
+        <div class="nav-item">
+          <a class="Home" href="">Home</a>
+          <a class="About" href="">About</a>
+          <a class="Facilities" href="">Facilities</a>
+          <a class="Admission" href="">Admission</a>
+        </div>
+
+        <!-- BUTTON -->
+        <div class="primary-btn">Contact</div>
+      </nav>
+      <!-- Banner -->
+      <div class="banner">
+        <div class="banner-content">
+          <h1 class="font">
+            <span class="Empowering">Empowering</span> <br />
+            students from small age
+            <span class="towards">towards vision</span>
+          </h1>
+          <p>
+            With the courage, Confidence, Creativity and Compassion to make
+            their Unique Contribution in a Diverse and Dynamic World.
+          </p>
+          <button class="enroll">Enroll Now</button>
+        </div>
+        <div class="banner-img">
+          <img src="assets/hero-kids.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- Standard Curriculum -->
+    <section class="Standard">
+      <h1 class="font">Standard Curriculum</h1>
+
+      <div class="Standard-card">
+        <div class="card card1">
+          <img src="assets/kinder.png" alt="" />
+          <h3 class="font">Kinder (3–6) Years</h3>
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mu sdis parturient
+          </p>
+          <a href="#" class="read-more read1">Read More</a>
+        </div>
+
+        <div class="card card2">
+          <img src="assets/elementary.png" alt="" />
+          <h3 class="font">Elementary School</h3>
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mu sdis parturient
+          </p>
+          <a href="#" class="read-more read2">Read More</a>
+        </div>
+
+        <div class="card card3">
+          <img src="assets/middle.png" alt="" />
+          <h3 class="font">Middle (10–16) Years</h3>
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mu sdis parturient
+          </p>
+          <a href="#" class="read-more read3">Read More</a>
+        </div>
+      </div>
+      <div class="arrow-buttons">
+        <button class="arrow left">←</button>
+        <button class="arrow right">→</button>
+      </div>
+    </section>
+
+    <!-- Our Stories -->
+
+    <section class="stories">
+      <h2 class="section-title font">Our Stories</h2>
+
+      <div class="stories-card">
+        <!--  Left side Card -->
+        <div class="left-card story-card big-card">
+          <img src="assets/story-1.png" alt="" />
+          <span class="date-badge blue">November 19, 2019</span>
+
+          <h3>A fun toddler coloring training on classroom</h3>
+          <p class="desc">
+            Beautiful branding for changes by Never Now in Australia. changes is
+            a platform for open discussion in an inclusive and collaborative
+            environment, providing the…
+          </p>
+        </div>
+
+        <!-- Right side Cards -->
+        <div class="right-card">
+          <div class="story-card small-card">
+            <img src="assets/story-2.png" alt="" />
+            <span class="date-badge green">November 19, 2019</span>
+            <p>Find out if a school fits the family’s needs</p>
+          </div>
+
+          <div class="story-card small-card">
+            <img src="assets/story-3.png" alt="" />
+            <span class="date-badge purple">November 19, 2019</span>
+            <p>Summer math & literacy centres for kids</p>
+          </div>
+
+          <div class="story-card small-card">
+            <img src="assets/story-4.png" alt="" />
+            <span class="date-badge green">September 10, 2019</span>
+            <p>Classroom management techniques for new tutors</p>
+          </div>
+
+          <div class="story-card small-card">
+            <img src="assets/story-5.png" alt="" />
+            <span class="date-badge green">July 19, 2019</span>
+            <p>Conversation rhymes improve kids listening</p>
+          </div>
+        </div>
+      </div>
+      <div class="btn"><button class="all-btn">view All</button></div>
+    </section>
+
+    <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Left Logo & Description -->
+    <div class="footer-box">
+<div class="footer-box-contante">      <img src="assets/logo.png" class="footer-logo" alt="">
+      <h2 class="footer-title">Kids<br>Education</h2></div>
+      <p class="footer-desc">
+        Pizza ipsum dolor meat lovers buffalo. <br>
+        Deep dolor roll melted bacon Bianca pan <br>
+        bacon pineapple Aussie. Mayo rib sauce <br>
+        Hawaiian meatball.
+      </p>
+    </div>
+
+    <!-- Middle Menu -->
+    <div class="footer-box">
+      <h3 class="footer-heading">About School</h3>
+      <ul class="footer-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Facilities</li>
+        <li>Admission</li>
+      </ul>
+    </div>
+
+    <!-- Right Social Icons -->
+    <div class="footer-box">
+      <h3 class="footer-heading">Keep In Touch</h3>
+
+      <div class="footer-social">
+        <img src="assets/fb.png" alt="">
+        <img src="assets/dribble.png" alt="">
+        <img src="assets/twitter.png" alt="">
+        <img src="assets/google.png" alt="">
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav-bar").classList.toggle("active");
+      }
+    </script>
+  </body>
 </html>
